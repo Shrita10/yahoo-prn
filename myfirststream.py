@@ -60,7 +60,7 @@ def plot(x):
     plt.xticks(i.index, rotation=45)
     st.pyplot(fig1)
 
-x = st.sidebar.selectbox('Here are the matched symbols from Yahoo-PRNewswire. Select a symbol to view the visualization',list1)
+x = st.sidebar.selectbox('Here are the matched symbols from Yahoo-PRNewswire. Select a symbol to view the visualization                                                              ',list1)
 if st.sidebar.button('Click here to view the visualization'):
     plot(x)
 
